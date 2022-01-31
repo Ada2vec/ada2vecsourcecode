@@ -65,7 +65,7 @@ parameters of the Ada2vecChange.py script (line 11-17):
 	-datasetdir
 		File directory of input files; an example directory is ../Part1_Dynamic_(Processed_Datasets)/2013/Part3_Change_Input_Files
 	-neighbourlistdatasetname
-		File name of a node heterogeneous neighbour list; an example file is	../Part1_Dynamic_(Processed_Datasets)/2013/AMiner2013SubsetV1.w50.l20.neighbourlist.txt
+		File name of node heterogeneous neighbour list; an example file is	../Part1_Dynamic_(Processed_Datasets)/2013/Part3_Change_Input_Files/AMiner2011V1.w50.l20.neighbourlist.txt
 	-connectionTdatasetname
 		File name of node heterogeneous connection at time stamp t (t=1,2,3,...,i); an example file is ../Part1_Dynamic_(Processed_Datasets)/2013/Part3_Change_Input_Files/object_connection_2011.txt
 	-connectionT1datasetname
@@ -82,4 +82,3 @@ Output:
 	Changed existing node output file; an example file is ../Part1_Dynamic_(Processed_Datasets)/2013/Part3_Change_Input_Files/changedobjectsconfidence0.3.txt
 	
 	Testing output file; an example file is ../Part1_Dynamic_(Processed_Datasets)/2013/Part3_Change_Input_Files/testingoutputconfidence0.3.txt
-
